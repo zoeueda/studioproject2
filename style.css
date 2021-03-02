@@ -176,12 +176,13 @@ button {
   border-radius:10px;
   border: 15px blue;
   font-size: 20px;
-  padding: 2px;
+  padding: 8px;
   width: 100px;
   left: 630px;
   text-decoration: none;
   margin-top: 50px;
   margin-bottom: 60px;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
 
 button:hover {
